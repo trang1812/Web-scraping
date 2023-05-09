@@ -24,8 +24,8 @@ driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div/section/div/div[2]
 
 
 #signin
-driver.find_element(By.XPATH, '//*[@id="username"]').send_keys('trangtran181112@gmail.com')
-driver.find_element(By.XPATH,'//*[@id="password"]').send_keys('Trang1812')
+driver.find_element(By.XPATH, '//*[@id="username"]').send_keys('xxxx@gmail.com')
+driver.find_element(By.XPATH,'//*[@id="password"]').send_keys('xxxx')
 driver.find_element(By.XPATH, '//*[@id="organic-div"]/form/div[3]/button').click() #signin button
 driver.find_element(By.XPATH, '//*[@id="ember455"]/button').click() #skip adding phone nr
 driver.implicitly_wait(30)
